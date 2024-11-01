@@ -3,6 +3,10 @@
     
 }
 
+.overflow{
+    overflow: hidden;
+}
+
 .header-content--time div{
     font-weight:400;
     display:block;
@@ -413,6 +417,9 @@
 .openflex{
     display: flex;
 }
+.icon-thank-button:hover{
+    color: red;
+}
 
 
 /*  test  */
@@ -426,9 +433,12 @@
     width: 100%;
 }
 
+
 .slick-initialized .slick-slide {
     display: block;
     margin-left: 5px;
     margin-right: 5px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 1px 3px 3px 1px grey;
 }

@@ -1,0 +1,9 @@
+@media (max-width: 768px){
+    ul.products{
+        display: block;
+    }
+    ul.products li {
+        width: 414px;
+    }
+
+}

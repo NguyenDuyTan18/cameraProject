@@ -1,5 +1,6 @@
 
-@media (max-width: 768px) {
+@media (max-width: 450px) {
+    
     .header{
         width: 100%;
     }
@@ -10,7 +11,7 @@
 
     .header-content_img--logo{
         width: 70px;
-        margin-right: 85px;
+        margin-right: 60px;
     }
 
     .header .header-content{
@@ -137,12 +138,30 @@
     }
 
     /* modal */
+    .modal-thank{
+        
+    }
     .modal-thank__container button {
-        left: 361px;
+        left: 348px;
+        font-size: 30px;
+        top: 12px;
+        left: 305px;
     }
 
     .modal-thank-subcontent {
         margin: 10px;
+    }
+    .modal-thank__container{
+        min-height: 300px;
+        
+        width: 350px;
+    }
+    .modal-thank--content{
+        width: 460px;
+        height: 400px;
+        background-color: #fff;
+        text-align: center;
+        border-radius: 10px; 
     }
     /* modal */
 }
@@ -165,4 +184,8 @@
        
         display: none;
     }
+    .menu-bar, .header-nav__div--trangchu, .header-nav__div--camera, .header-nav__div--camera-accessory, .header-nav__div--laptop, .header-nav__div--laptop-accessory {
+        padding: 5px 5px;
+    }
+   
 }
