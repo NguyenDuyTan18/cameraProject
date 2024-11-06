@@ -193,9 +193,9 @@ setInterval(() => {
 
 // main
 
-// footer
-const likebutton = document.querySelector(".icon-like");
-let likeText = Math.floor(Math.random() * (1000 - 10) + 10);
-console.log(likeText);
-likebutton.innerHTML = `<i class="fa-regular fa-thumbs-up"></i> ${likeText}K`;
-// footer
+// // footer
+// const likebutton = document.querySelector(".icon-like");
+// let likeText = Math.floor(Math.random() * (1000 - 10) + 10);
+// console.log(likeText);
+// likebutton.innerHTML = `<i class="fa-regular fa-thumbs-up"></i> ${likeText}K`;
+// // footer

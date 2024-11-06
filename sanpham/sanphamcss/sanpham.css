@@ -222,11 +222,25 @@ a .header-icon__i--user {
 .products li .product-top {
   position: relative;
   overflow: hidden;
+  text-align: center;
 }
 
-.products li .product-top .product-thumb {
-  display: block;
+.products li .product-top .buy-now {
+    text-transform: uppercase;
+    margin: 10px auto;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid rgb(173, 168, 168);
 }
+.products li .product-top .buy-now:hover{
+  background-color: #fff;
+  color: #000;
+}
+.pic1:hover img, .pic2:hover img, .pic3:hover img, .pic4:hover img, .pic5:hover img, .pic6:hover img, .pic7:hover img, .pic8:hover img{
+  opacity: 0.5;
+}
+
+
 
 .products li .product-top a.button {
   text-transform: uppercase;
@@ -273,6 +287,14 @@ a .header-icon__i--user {
   padding: 20px 0px;
   font-weight: 800;
   text-align: end;
+}
+
+.content{
+  text-align: justify;
+  margin: 10px 5px;
+}
+.content p{
+  margin: 5px 0;
 }
 
 /* Footer */
@@ -429,3 +451,4 @@ footer h3 {
   font-weight: bolder;
 }
 /* Footer */
+
