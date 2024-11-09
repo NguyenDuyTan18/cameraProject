@@ -203,12 +203,17 @@
     
 
 //modal
-    const thankButton = document.querySelector('.icon-thank-button');
+    const gift1 = document.querySelector('.img1');
+    const gift2 = document.querySelector('.img2');
+    const thankButton = document.querySelector('.icon-thank');
     const closeThankButton = document.querySelector('.close-thank-button');
     const modalButton = document.querySelector('.modal-thank');
 
     function showModal() {
-        modalButton.classList.add('openflex')
+        gift1.classList.add('close-block');
+        gift2.classList.add('open-block');
+        modalButton.classList.add('openflex');
+
     }
 
     function closeModal(){

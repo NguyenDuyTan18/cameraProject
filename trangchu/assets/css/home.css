@@ -339,12 +339,33 @@
 /*  icon-thanks */
 .icon-thank{
     position: fixed;
-    top: 85%;
+    top: 70%;
     /* right: 35px; */
     left: 10px;
     font-size: 50px;
     color: #e1169a;
+    height: 100px;
+    width: 100px;
 }
+
+.icon-thank img{
+    width: 100%;
+}
+
+.img1.close-block{
+    display: none;
+}
+
+.icon-thank .img2{
+    display: none;
+}
+
+.img2.open-block {
+    display: block;
+}
+
+
+
 .modal-thank{
     position: fixed;
     top: 0;
@@ -409,8 +430,8 @@
 
 .modal-thank__container button{
     position: absolute;
-    /* width: 21px; */
-    height: 19px;
+    width: 30px;
+    height: 25px;
     top: 20px;
     left: 450px;
 }
