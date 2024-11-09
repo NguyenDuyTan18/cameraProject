@@ -105,7 +105,10 @@ form1.addEventListener('submit', (e)=>{
         submitbox.classList.remove('boxinvalid');
         submitbox.classList.add('show', 'boxvalid');
         submitbox.innerText = ("Bạn đã tạo tài khoản thành công.");
-        window.location.href = "http://127.0.0.1:5500/dangnhap/dangnhap.html";
+        setTimeout(()=>{
+            window.location.href = "http://127.0.0.1:5500/dangnhap/dangnhap.html";
+        }, 5000)
+        
     } else {
         container.classList.remove('complete');
         submitbox.classList.remove('boxinvalid');
